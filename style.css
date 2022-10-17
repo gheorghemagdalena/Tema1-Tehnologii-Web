@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    color: #e72c66;
+}
+
+h2, h3 {
+    font-family: 'Hind', sans-serif;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+/* Sectiunea 1 */
+#first_section {
+    width: 100%;
+    height: 720px;
+    background-image: url("img1.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#first_section div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#first_section h1 {
+    text-align: center;
+    font-size: 9.375em;
+    font-family: 'Inspiration', cursive;
+}
+
+#first_section h3{
+    text-align: center;
+}
+
+/* Sectiunea 2 */
+#second_section {
+    background-color: #fffdfd;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+#second_section img {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#second_section p {
+    font-size: 1.2em;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#second_section .bl {
+    color: rgb(179, 174, 174);
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+/* Sectiunea 3 */
+#third_section {
+    background-color: #fffdfd;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#third_section p {
+    font-size: 1.2em;
+}
+
+#third_section h2 {
+    text-align: center;
+}
+
+#third_section .co {
+    background-color: #4b7de1;
+    border-radius: 50%;
+    font-size: 80px;
+    padding: 20px;
+    color: white;
+}
+
+#third_section #id1 {
+    margin-left: 5%;
+}
+
+#third_section #first {
+    width: 70%;
+    float: right;
+    margin-right: 10%;
+    margin-left: 10px;
+}
+
+#third_section #second {
+    width: 70%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+#third_section #id2 {
+    float:right;
+    margin-top: 8%;
+    margin-right: 10%;
+}
+
+#third_section span {
+    font-size: 1.2em;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#third_section .bl {
+    color: rgb(179, 174, 174);
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+/* Sectiunea 4 */
+#fourth_section {
+    background-color: #fffdfd;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+#fourth_section a:link, #fourth_section a:visited {
+    text-decoration: none;
+    background-color: #4b7de1;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#fourth_section a:hover, #fourth_section a:active {
+    background-color: #e72c66;
+}
+
+/* Contacte */
+#contacts {
+    height: 200px;
+    width: 100%;
+    background-color: #e72c676b;
+    text-align: center;
+    position: relative;
+}
+
+#contacts div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#contacts p {
+    margin-top: 20px;
+}
+
+#contacts a {
+    color: #4b7de1;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
